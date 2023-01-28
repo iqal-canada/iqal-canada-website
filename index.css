@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+#header-logo {
+  height: 6rem;
+}
+
+@media (width <1000px) {
+  #header-logo {
+    height: 2.5rem;
+    transform: scale(1.5);
+    transform-origin: left center;
+  }
+}
