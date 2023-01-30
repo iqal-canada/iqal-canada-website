@@ -20,7 +20,7 @@ app.post('/sendmail', (req, res) => {
     port: 465,
     auth: {
       user: 'sujaigorai544@gmail.com', // generated ethereal user
-      pass: 'dacjznbfxxawgfdf', // generated ethereal password
+      pass: '', // generated ethereal password
     },
   })
 
