@@ -12,3 +12,47 @@ layer(default);
 @import url('assets/rslider/fonts/font-awesome/css/font-awesome.css')
 layer(default);
 @import url('assets/rslider/css/settings.css') layer(default);
+
+* {
+  box-sizing: border-box;
+}
+
+#menu-main a::after {
+  all: unset;
+}
+
+#logo img {
+  height: 1rem;
+  position: relative;
+  transform: scale(4.5) translate(1rem, 0.15rem);
+}
+
+.logo-footer img {
+  height: 7rem;
+}
+
+@media (width < 994px) {
+  #logo img {
+    height: 2.7rem;
+    position: relative;
+    transform: scale(1.5) translate(1rem, 0.03rem);
+  }
+
+  #fixed-header-dark {
+    background-color: rgba(0, 0, 0, 0.493);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+  }
+}
+@media (width > 994px) {
+  .fixed-header {
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.116);
+  }
+
+  .fixed-header-dark {
+    background-color: rgba(0, 0, 0, 0.493);
+    backdrop-filter: blur(10px);
+  }
+}
