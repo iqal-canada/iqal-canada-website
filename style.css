@@ -218,6 +218,15 @@ footer.layout-dark {
     linear-gradient(90deg, #ffffff, #ffffff);
 }
 
+.job-radio-label {
+  display: inline-flexbox;
+  align-items: center;
+  margin: 0 0.3rem;
+}
+.job-radio-label input[type='radio'] {
+  accent-color: red;
+}
+
 @media (width < 994px) {
   #logo img {
     height: 2.7rem;
